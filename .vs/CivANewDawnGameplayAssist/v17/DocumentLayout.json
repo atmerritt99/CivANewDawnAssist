@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\source\\CivANewDawnGameplayAssist\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{268E7A57-1B0C-4B3C-A9C9-1A10785D5C92}|CivANewDawnAssistModels\\CivANewDawnAssistModels.csproj|d:\\source\\civanewdawngameplayassist\\civanewdawnassistmodels\\civanewdawngamemaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{268E7A57-1B0C-4B3C-A9C9-1A10785D5C92}|CivANewDawnAssistModels\\CivANewDawnAssistModels.csproj|solutionrelative:civanewdawnassistmodels\\civanewdawngamemaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268E7A57-1B0C-4B3C-A9C9-1A10785D5C92}|CivANewDawnAssistModels\\CivANewDawnAssistModels.csproj|d:\\source\\civanewdawngameplayassist\\civanewdawnassistmodels\\eventcardera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{268E7A57-1B0C-4B3C-A9C9-1A10785D5C92}|CivANewDawnAssistModels\\CivANewDawnAssistModels.csproj|solutionrelative:civanewdawnassistmodels\\eventcardera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{268E7A57-1B0C-4B3C-A9C9-1A10785D5C92}|CivANewDawnAssistModels\\CivANewDawnAssistModels.csproj|d:\\source\\civanewdawngameplayassist\\civanewdawnassistmodels\\eventcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{268E7A57-1B0C-4B3C-A9C9-1A10785D5C92}|CivANewDawnAssistModels\\CivANewDawnAssistModels.csproj|solutionrelative:civanewdawnassistmodels\\eventcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6811AB4-8454-42CD-B893-5F8C6495AF8B}|CivANewDawnGameplayAssist\\CivANewDawnAssistViews.csproj|d:\\source\\civanewdawngameplayassist\\civanewdawngameplayassist\\gameplaypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6811AB4-8454-42CD-B893-5F8C6495AF8B}|CivANewDawnGameplayAssist\\CivANewDawnAssistViews.csproj|solutionrelative:civanewdawngameplayassist\\gameplaypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6811AB4-8454-42CD-B893-5F8C6495AF8B}|CivANewDawnGameplayAssist\\CivANewDawnAssistViews.csproj|d:\\source\\civanewdawngameplayassist\\civanewdawngameplayassist\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6811AB4-8454-42CD-B893-5F8C6495AF8B}|CivANewDawnGameplayAssist\\CivANewDawnAssistViews.csproj|solutionrelative:civanewdawngameplayassist\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventCardEra.cs",
+              "DocumentMoniker": "D:\\source\\CivANewDawnGameplayAssist\\CivANewDawnAssistModels\\EventCardEra.cs",
+              "RelativeDocumentMoniker": "CivANewDawnAssistModels\\EventCardEra.cs",
+              "ToolTip": "D:\\source\\CivANewDawnGameplayAssist\\CivANewDawnAssistModels\\EventCardEra.cs",
+              "RelativeToolTip": "CivANewDawnAssistModels\\EventCardEra.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T02:37:40.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventCard.cs",
+              "DocumentMoniker": "D:\\source\\CivANewDawnGameplayAssist\\CivANewDawnAssistModels\\EventCard.cs",
+              "RelativeDocumentMoniker": "CivANewDawnAssistModels\\EventCard.cs",
+              "ToolTip": "D:\\source\\CivANewDawnGameplayAssist\\CivANewDawnAssistModels\\EventCard.cs",
+              "RelativeToolTip": "CivANewDawnAssistModels\\EventCard.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T02:21:39.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CivANewDawnGameMaster.cs",
+              "DocumentMoniker": "D:\\source\\CivANewDawnGameplayAssist\\CivANewDawnAssistModels\\CivANewDawnGameMaster.cs",
+              "RelativeDocumentMoniker": "CivANewDawnAssistModels\\CivANewDawnGameMaster.cs",
+              "ToolTip": "D:\\source\\CivANewDawnGameplayAssist\\CivANewDawnAssistModels\\CivANewDawnGameMaster.cs",
+              "RelativeToolTip": "CivANewDawnAssistModels\\CivANewDawnGameMaster.cs",
+              "ViewState": "AgIAAFkCAAAAAAAAAAAtwMICAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T01:57:56.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameplayPage.xaml.cs",
+              "DocumentMoniker": "D:\\source\\CivANewDawnGameplayAssist\\CivANewDawnGameplayAssist\\GameplayPage.xaml.cs",
+              "RelativeDocumentMoniker": "CivANewDawnGameplayAssist\\GameplayPage.xaml.cs",
+              "ToolTip": "D:\\source\\CivANewDawnGameplayAssist\\CivANewDawnGameplayAssist\\GameplayPage.xaml.cs",
+              "RelativeToolTip": "CivANewDawnGameplayAssist\\GameplayPage.xaml.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAcwGYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T01:55:17.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\source\\CivANewDawnGameplayAssist\\CivANewDawnGameplayAssist\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CivANewDawnGameplayAssist\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\source\\CivANewDawnGameplayAssist\\CivANewDawnGameplayAssist\\MainWindow.xaml.cs",
+              "RelativeToolTip": "CivANewDawnGameplayAssist\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAgwCoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T01:43:35.08Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

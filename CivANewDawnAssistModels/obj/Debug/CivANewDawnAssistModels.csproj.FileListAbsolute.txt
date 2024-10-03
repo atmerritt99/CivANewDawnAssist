@@ -1,0 +1,12 @@
+D:\CivANewDawnGameplayAssist\CivANewDawnAssistModels\bin\Debug\CivANewDawnAssistModels.dll
+D:\CivANewDawnGameplayAssist\CivANewDawnAssistModels\bin\Debug\CivANewDawnAssistModels.pdb
+D:\CivANewDawnGameplayAssist\CivANewDawnAssistModels\obj\Debug\CivANewDawnAssistModels.csproj.AssemblyReference.cache
+D:\CivANewDawnGameplayAssist\CivANewDawnAssistModels\obj\Debug\CivANewDawnAssistModels.csproj.CoreCompileInputs.cache
+D:\CivANewDawnGameplayAssist\CivANewDawnAssistModels\obj\Debug\CivANewDawnAssistModels.dll
+D:\CivANewDawnGameplayAssist\CivANewDawnAssistModels\obj\Debug\CivANewDawnAssistModels.pdb
+D:\source\CivANewDawnGameplayAssist\CivANewDawnAssistModels\bin\Debug\CivANewDawnAssistModels.dll
+D:\source\CivANewDawnGameplayAssist\CivANewDawnAssistModels\bin\Debug\CivANewDawnAssistModels.pdb
+D:\source\CivANewDawnGameplayAssist\CivANewDawnAssistModels\obj\Debug\CivANewDawnAssistModels.csproj.AssemblyReference.cache
+D:\source\CivANewDawnGameplayAssist\CivANewDawnAssistModels\obj\Debug\CivANewDawnAssistModels.csproj.CoreCompileInputs.cache
+D:\source\CivANewDawnGameplayAssist\CivANewDawnAssistModels\obj\Debug\CivANewDawnAssistModels.dll
+D:\source\CivANewDawnGameplayAssist\CivANewDawnAssistModels\obj\Debug\CivANewDawnAssistModels.pdb

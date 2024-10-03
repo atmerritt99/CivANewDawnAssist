@@ -1,0 +1,54 @@
+﻿<Page x:Class="CivANewDawnGameplayAssist.GeneralSetupPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CivANewDawnGameplayAssist"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="GeneralSetupPage">
+
+    <Grid Background="DarkGray">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Label Grid.Column="2" Grid.ColumnSpan="2" FontSize="40">General Setup</Label>
+        <Label Grid.Row="1" Grid.ColumnSpan="6" FontSize="16">Deal each player a random Victory Card, a random Great Person and a random Great Prophet</Label>
+        <Label Grid.Row="2" FontSize="14">Player Capitol Tiles:</Label>
+        <Label x:Name="lbl_player1CapitolTile" Grid.Row="2" Grid.Column="1" FontSize="14"></Label>
+        <Label x:Name="lbl_player2CapitolTile" Grid.Row="2" Grid.Column="2" FontSize="14"></Label>
+        <Label x:Name="lbl_player3CapitolTile" Grid.Row="2" Grid.Column="3" FontSize="14"></Label>
+        <Label x:Name="lbl_player4CapitolTile" Grid.Row="2" Grid.Column="4" FontSize="14"></Label>
+        <Label x:Name="lbl_player5CapitolTile" Grid.Row="2" Grid.Column="5" FontSize="14"></Label>
+        <Label Grid.Row="3" FontSize="14">Starting Map Tiles: </Label>
+        <Label x:Name="lbl_mapTile1" Grid.Row="3" Grid.Column="1" FontSize="14"></Label>
+        <Label x:Name="lbl_mapTile2" Grid.Row="3" Grid.Column="2" FontSize="14"></Label>
+        <Label x:Name="lbl_mapTile3" Grid.Row="3" Grid.Column="3" FontSize="14"></Label>
+        <Label x:Name="lbl_mapTile4" Grid.Row="3" Grid.Column="4" FontSize="14"></Label>
+        <!--<Label Grid.Row="3" FontSize="14">Starting Wonders: </Label>
+        <Label x:Name="lbl_startingCultureWonder" Grid.Row="3" Grid.Column="1" Foreground="Purple" FontSize="14">Culture: </Label>
+        <Label x:Name="lbl_startingEconomyWonder" Grid.Row="3" Grid.Column="2" Foreground="Yellow" FontSize="14">Economy: </Label>
+        <Label x:Name="lbl_startingMilitaryWonder" Grid.Row="3" Grid.Column="3" Foreground="Red" FontSize="14">Military: </Label>
+        <Label x:Name="lbl_startingScienceWonder" Grid.Row="3" Grid.Column="4" Foreground="Blue" FontSize="14">Science: </Label>-->
+        <Label Grid.Row="4" FontSize="14">Victory Cards: </Label>
+        <Label x:Name="lbl_victoryCard1" Grid.Row="4" Grid.Column="1"></Label>
+        <Label x:Name="lbl_victoryCard2" Grid.Row="4" Grid.Column="2"></Label>
+        <Label x:Name="lbl_victoryCard3" Grid.Row="4" Grid.Column="3"></Label>
+        <Label x:Name="lbl_victoryCard4" Grid.Row="4" Grid.Column="4"></Label>
+        <Button x:Name="btn_back" Grid.Row="5" Click="btn_back_Click">Back</Button>
+        <Button x:Name="btn_continue" Grid.Row="5" Grid.Column="5" Click="btn_continue_Click">Continue -></Button>
+    </Grid>
+</Page>

@@ -1,0 +1,59 @@
+﻿<Page x:Class="CivANewDawnGameplayAssist.GameplayPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CivANewDawnGameplayAssist"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="GameplayPage">
+
+    <Grid Background="DarkGray">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Label Grid.Row="1" >Current Turn</Label>
+        <Label Grid.Row="3" >Upcoming Events</Label>
+        <TextBlock x:Name="txtblck_event1" Grid.Row="3" Grid.Column="1" TextWrapping="Wrap" Grid.RowSpan="2" FontSize="24"></TextBlock>
+        <TextBlock x:Name="txtblck_event2" Grid.Row="3" Grid.Column="2" TextWrapping="Wrap" Grid.RowSpan="2" FontSize="24"></TextBlock>
+        <TextBlock x:Name="txtblck_event3" Grid.Row="3" Grid.Column="3" TextWrapping="Wrap" Grid.RowSpan="2" FontSize="24"></TextBlock>
+        <TextBlock x:Name="txtblck_event4" Grid.Row="3" Grid.Column="4" TextWrapping="Wrap" Grid.RowSpan="2" FontSize="24"></TextBlock>
+        <TextBlock x:Name="txtblck_event5" Grid.Row="3" Grid.Column="5" TextWrapping="Wrap" Grid.RowSpan="2" FontSize="24"></TextBlock>
+        <TextBlock x:Name="txtblck_currentTurn" Grid.Row="1" Grid.RowSpan="2" Grid.ColumnSpan="3" Grid.Column="1" TextWrapping="Wrap" FontSize="24"></TextBlock>
+        <Button x:Name="btn_nextTurn" Grid.Row="1" Grid.Column="4" Click="btn_nextTurn_Click">Next Turn</Button>
+        <Button x:Name="btn_drawMapTile" Grid.Row="1" Grid.Column="6" Click="btn_drawMapTile_Click">Draw Map Tile</Button>
+        <Button x:Name="btn_astronomy" Grid.Row="1" Grid.Column="7" IsEnabled="False" Click="btn_astronomy_Click">Astronomy</Button>
+        <Button x:Name="btn_returnFirstMapTile" Grid.Row="2" Grid.Column="6" IsEnabled="False" Click="btn_returnFirstMapTile_Click">Return First Tile</Button>
+        <Button x:Name="btn_returnSecondMapTile" Grid.Row="2" Grid.Column="7" IsEnabled="False" Click="btn_returnSecondMapTile_Click">Return Second Tile</Button>
+        <Label x:Name="lbl_mapTile" Grid.Row="1" Grid.Column="5"></Label>
+        <!--<Button x:Name="btn_prevTurn" Grid.Row="1" Grid.Column="4" Click="btn_prevTurn_Click">Previous Turn</Button>-->
+        <!--<Label Grid.Row="4" FontSize="14">Wonders:</Label>
+        <TextBlock x:Name="txtblck_cultureWonder"  Grid.Row="4" Grid.Column="1" Foreground="Purple" TextWrapping="Wrap"></TextBlock>
+        <TextBlock x:Name="txtblck_economyWonder" Grid.Row="4" Grid.Column="2" Foreground="Yellow" TextWrapping="Wrap"></TextBlock>
+        <TextBlock x:Name="txtblck_militaryWonder" Grid.Row="4" Grid.Column="3" Foreground="Red" TextWrapping="Wrap"></TextBlock>
+        <TextBlock x:Name="txtblck_scienceWonder"  Grid.Row="4" Grid.Column="4" Foreground="Blue" TextWrapping="Wrap"></TextBlock>
+        <TextBlock x:Name="txtblck_worldGames"  Grid.Row="4" Grid.Column="5" TextWrapping="Wrap">Place World Wonders from events here:</TextBlock>-->
+        <!--<TextBlock x:Name="txtblck_worldFair"  Grid.Row="4" Grid.Column="6" TextWrapping="Wrap"></TextBlock>
+        <TextBlock x:Name="txtblck_moonLanding"  Grid.Row="4" Grid.Column="7" TextWrapping="Wrap"></TextBlock>-->
+        <!--<Button x:Name="btn_buyCultureWonder" Grid.Row="5" Grid.Column="1" Click="btn_buyCultureWonder_Click">Buy Culture Wonder</Button>
+        <Button x:Name="btn_buyEconomyWonder" Grid.Row="5" Grid.Column="2" Click="btn_buyEconomyWonder_Click">Buy Economy Wonder</Button>
+        <Button x:Name="btn_buyMilitaryWonder" Grid.Row="5" Grid.Column="3" Click="btn_buyMilitaryWonder_Click">Buy Military Wonder</Button>
+        <Button x:Name="btn_buyScienceWonder"  Grid.Row="5" Grid.Column="4" Click="btn_buyScienceWonder_Click">Buy Science Wonder</Button>-->
+    </Grid>
+</Page>
